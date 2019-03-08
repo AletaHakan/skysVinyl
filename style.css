@@ -1,0 +1,196 @@
+/* custom styling for the theme */
+body {
+  background-color: #4A413F;
+  font-family: 'BenchNine', sans-serif;
+  line-height: 1.4em;
+}
+
+/* **************************************************** **
+**                     Navbar Styling                   **
+** **************************************************** */
+
+.mnvbBrd {
+  color: #ffffff;
+  font-family: 'Maiden Orange', cursive;
+  letter-spacing: .2em;
+  font-size: 1.6em;
+}
+.nvb {
+  background-color: #12B7A4;
+  font-size: 1em;
+}
+.nvb-link {
+  color: #ffffff;
+  font-family: 'BenchNine', sans-serif;
+  letter-spacing: .25em;
+}
+.nvb-link:hover {
+  color: #C4B7B1;
+}
+/* **************************************************** **
+**                     Footer Styling                   **
+** **************************************************** */
+
+.ftr {
+  background-color:#284051;
+  color: #ffffff;
+}
+.ftrHghlght {
+  background-color:#EA4845;
+  color: #ffffff;
+}
+.ftrInpt {
+  height: 1.75em;
+  border: solid 1px #284051;
+}
+#signUp-btn {
+  background-color: #12B7A4;
+  color:#ffffff;
+  border: #56ACEA;
+  height: 1.85em;
+}
+i.sMdiaIcns {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+i.sMdiaIcns:hover {
+  color: #EA4845;
+}
+
+/* **************************************************** **
+**                Record Player Styling                 **
+** **************************************************** */
+
+
+.box1 {
+  background-color: #56ACEA;
+  height: 20em;
+  width: 30em;
+}
+.circle1 {
+  height: 18rem;
+  width: 18rem;
+}
+.bar1 {
+  background-color: #ffffff;
+  height: 12em;
+  width: .7em;
+  transform: skewY(20deg) skewX(1deg) rotate(35deg);
+}
+
+/* **************************************************** **
+**                  Blog Page Styling                   **
+** **************************************************** */
+
+.hdng {
+  color: #12B7A4;
+  font-size: 7vw;
+}
+.crd {
+  height: 700px;
+  border: 5px solid #EA4845;
+  background-color: #C4B7B1;
+  color: #284051;
+  font-style: oblique;
+  font-size: 1rem;
+}
+.crdHdr {
+  padding: 2rem;
+  height: 5rem;
+  color: #284051;
+  background-color: #db9f9d;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.crdBdy {
+  padding: .15em;
+}
+.imgBkgrnd {
+  background-color: #284051;
+  border: 2px solid #EA4845;
+  padding-top: 100%;
+  position: relative;
+  align-content: center;
+}
+.upr {
+  color: #EA4845;
+  height: 2rem;
+}
+.mdl {
+  height: 10rem;
+}
+.lwr {
+  height: 5rem;
+}
+
+a.card-link {
+  color: #EA4845;
+}
+.cstmBtn {
+  background-color: #284051;
+  color: #EA4845;
+  font-size: 2.85vh;
+  border: 2px solid #EA4845;
+  align-self: center;
+  min-height: 4vh;
+}
+
+/* **************************************************** **
+**                Single Post Styling                   **
+** **************************************************** */
+
+.sglpgCrd {
+  background-color: #EA4845;
+  padding: 1.05em;
+  margin: 0;
+}
+a.sglpgCrd-links {
+  color: #284051;
+  text-transform: capitalize;
+}
+.sglpgH1 {
+  font-family: 'Maiden Orange', cursive;
+  font-size: 5vh;
+}
+.brdCrmbs-link {
+  color: #284051;
+  font-weight: bolder;
+}
+.sglpgCrd1 {
+  background-color: #C4B7B1;
+  color: #284051;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 1.16em;
+}
+.sglpgPstCnt {
+  text-transform: none !important;
+}
+.breadcrumb {
+  background-color: #12B7A4;
+  color: #284051;
+  font-size: 1.25em;
+}
+
+/* **************************************************** **
+**                  Comments Styling:                   **
+** **************************************************** */
+
+.cmmntsHdr {
+  text-transform: capitalize;
+  color: #EA4845;
+}
+.cmmntsCrd {
+  color: #284051;
+  font-size: 1.25em;
+}
+a.cmmntsUsrLink {
+  color: #12B7A4;
+  text-transform: lowercase;
+}
+a.cmmntsUsrLink:hover {
+  color: #EA4845;
+}
+.myFormCntrl {
+  text-align: right;
+}
